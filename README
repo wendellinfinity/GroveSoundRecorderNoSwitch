@@ -1,0 +1,18 @@
+This is a demo code for the Grove Sound Recorder Twig to be able to be controlled programmatically.
+The serial commands are:
+#rb = begin recording track #
+#rs/rs = stop all recording
+#p = play track # 
+rm = record mode
+pm = play mode
+
+Example usage:
+To record at #4 slot
+: rm
+: 4rb
+<then record the sound>
+: 4rs
+
+To play #4 slot:
+: pm
+: 4p
